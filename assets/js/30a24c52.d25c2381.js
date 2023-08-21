@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkbk_garage_github_io=self.webpackChunkbk_garage_github_io||[]).push([[453],{4762:a=>{a.exports=JSON.parse('{"label":"hello","permalink":"/blog/tags/hello","allTagsPath":"/blog/tags","count":2}')}}]);
