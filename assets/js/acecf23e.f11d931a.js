@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkbk_garage_github_io=self.webpackChunkbk_garage_github_io||[]).push([[1903],{1912:a=>{a.exports=JSON.parse('{"blogBasePath":"/blog","blogTitle":"Blog","authorsListPath":"/blog/authors"}')}}]);
