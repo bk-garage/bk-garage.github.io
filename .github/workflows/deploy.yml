@@ -16,13 +16,13 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Enable Corepack
+      - name: Enable Corepack # BK: Removing this breaks the build due to a bug
         run: corepack enable
 
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-          cache: yarn # BK: breaks the build due to a bug
+          cache: yarn
 
       - name: Install dependencies
         run: yarn install --frozen-lockfile
