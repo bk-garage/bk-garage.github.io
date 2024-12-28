@@ -6,7 +6,7 @@ See https://docusaurus.io/docs/deployment for deploying to GitHub Pages (and oth
 
 Building with **yarn** caused problems in GitHub Actions, so I switched to use of **npm** instead. Also removed all yarn artefacts from git.
 
-Yarn is still useful for building the website and pushing to the `gh-pages` branch.
+Yarn is still useful for building the website and pushing to the `gh-pages` branch (when **Deploy from a branch** is being used instead of **GitHub Actions**).
 
 ```
 corepack enable
