@@ -23,6 +23,14 @@ function HomepageHeader() {
             Documentation
           </Link>
         </div>
+        <p />
+        <div className={styles.buttons}>
+          <Link
+            className="button button--secondary button--lg"
+            to="/blog">
+            Blog
+          </Link>
+        </div>
       </div>
     </header>
   );
@@ -32,7 +40,8 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
+      // title={`${siteConfig.title}`}
+      title={"Home"}
       description="Description will go into a meta tag in <head />">
       <HomepageHeader />
       <main>
